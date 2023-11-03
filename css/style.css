@@ -173,7 +173,9 @@
   }
 
   .bodyText{
-    margin-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
   }
 
   .bodyText img{
