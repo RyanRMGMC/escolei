@@ -158,6 +158,19 @@
 
 
 /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 890px) {
+  .card p{
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 710px) {
+    .card p{
+      font-size: x-small;
+    }
+  }
+  
+
 @media screen and (max-width: 600px) {
   .column {
     width: 75%;
@@ -176,6 +189,8 @@
     margin-right: auto;
     margin-left: auto;
     float: none;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .bodyText img{
@@ -185,18 +200,18 @@
 
   .title{
     font-size: 32px;
-}
+  }
 
-.logo{
+  .logo{
     height: 40px;
     margin: 0px 10px 10px 10px;
-}
+  }
 
-.menu{
+  .menu{
     right: 5px;
-}
+  }
 
-.menu img{
+  .menu img{
     height: 35px;
-}
+  }
 }
