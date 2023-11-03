@@ -172,6 +172,10 @@
     transform: none;
   }
 
+  .bodyText{
+    margin-right: 10px;
+  }
+
   .bodyText img{
     height: 100%;
     width: 100%;
