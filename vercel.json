@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "Projeto ESCOLEI/*",
+        "src": "doc/*",
         "use": "@vercel/static"
       },
       {
@@ -12,7 +12,13 @@
     ],
     "routes": [
       { "handle": "filesystem" },
-      { "src": "/server/(.*)", "dest": "server/$1" },
-      { "src": "/(.*)", "dest": "Projeto ESCOLEI/$1" }
-    ]
-  }
+    {
+      "src": "/server/.*",
+      "dest": "/server/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/doc/$1"
+    }
+  ]
+}
