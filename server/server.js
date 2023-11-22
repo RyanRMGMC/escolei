@@ -26,7 +26,7 @@ email_send.get('/enviar-email', (req, res) => {
     attachments: [
       {
         filename: 'materiais_de_estudo.zip',
-        content: fs.createReadStream('./docs/materiais_de_estudo/artigos_definidos_e_indefinidos/materiais_de_estudo.zip')
+        content: fs.createReadStream('../docs/materiais_de_estudo/artigos_definidos_e_indefinidos/materiais_de_estudo.zip')
       }
     ]
   };
