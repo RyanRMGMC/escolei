@@ -3,7 +3,7 @@ function enviarEmail() {
   const userEmail = emailInput.value;
 
   // Faz uma solicitação ao servidor Node.js
-  fetch(`https://db29-2804-14d-723e-80f4-4c56-8a57-7b54-7ee.ngrok.io/enviar-email?destinatario=${userEmail}`)
+  fetch(`https://db9e-2804-389-8115-18a6-399a-6a60-d289-a785.ngrok.io/enviar-email?destinatario=${userEmail}`)
     .catch(response => {
       console.log(response);
       // Verifica o status da resposta
